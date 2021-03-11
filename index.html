@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id=title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<div>
+<h1 id=title>Domestic Violence Survey Form</h1>
+  <i> <p class="middle">A survey to the accurate figures of female violence victims in Africa</p> <div class="body"></i>
+   </div>
+<body>
+   
+    <div class="body">
+        <form id="form-survey" action=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+            <div class="space">
+            <label id="name-label" for="Name"> Name:</label>
+            <input type="text" class="form-control" id="Name" placeholder="Name" name="Name" required> 
+            </input>
+            </div>
+            <div class="space">
+            <label id="number-label" for="Age">Age:</label>
+            <input type="number" class="form-control" id="Age" placeholder="Age" name="age" required>
+            </input>
+            </div>
+            <div class="space">
+            <label id="email-label" for="email">E-mail:</label>
+            <input type="email" class="form-control" id="email" placeholder="E-mail" name="email"required>
+            </input>
+            <p>Sex:</p>
+            <div class="space">
+                <label for="sex" >
+  <input type="radio" id="male-female" name="male-female" value="male">
+  male</label>
+</div>
+
+<div class="space">
+    <label for="sex">
+  <input type="radio" id="male-female" name="male-female" value="female">female
+  </label>
+</div>
+<p>Do you want to make this public or you want to remain anonymous?</p>
+<div class="space">
+  <input type="checkbox" id="public-anon" name="public-anonymous" value="public">
+  <label for="public">public</label>
+</div>
+
+<div class="space">
+  <input type="checkbox" id="public-anonymous" name="public-anonymous" value="anon">
+  <label for="anonymous">Anonymous</label>
+</div>
+<div class="space">
+<label id="dropdown" for="">Which family member knows about this?</label>
+	        <select name="family" id="family">
+	            <option value="">--Please choose an option--</option>
+	            <option value="Father">Father</option>
+	            <option value="Mother">Mother</option>
+	            <option value="Sister">Sister</option>
+	            <option value="Brother">Brother</option>
+                <option value="Uncle">Uncle</option>
+                <option value="aunty">Aunty</option>
+                <option value="Others">Others</option>
+	        </select>
+</div>
+<br><div class="space">
+    <label for="story">Tell us your story:</label></br>
+
+
+<textarea id="story" name="story"
+          rows="10" cols="50">
+Share your Story....
+</textarea>
+</div>
+<br><button id="submit">Submit</button></br>
+
+
+        </form> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1564862083038-9f45677eb2a5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 20px;
+}
+.body {
+  background-color: #606c38;
+  border-radius: 10px;
+  width: 800px;
+  padding:20px 0px 20px 100px;
+}
+.space {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+  
+}
+
+.form-control {
+  display: block;
+  width: 80%;
+  height: 1rem;
+  padding: 0.35rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+button {
+  background-color: #fff;
+  margin-bottom: 80px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.middle {
+  text-align: center;
+}
+button:hover {
+  /* width: 100px;
+    height: 50px; */
+  background-color: gray;
+  transition: 2s;
+  
+}
+    @media (min-width: 300px) {
+  .body {
+    /* max-width: 500px;  */
+  }
+  /* h1 {
+      font-size: 5px;
+      text-align: center;
+  }
+  .middle {
+      font-size: 4px;
+      text-align: center;
+  } */
+
+}
+
+@media (min-width:300px) and (max-width: 450px) {
+    .body {
+    max-width: 300px;
+  }
+  h1 {
+      font-size: 20px;
+      text-align: center;
+  }
+  .middle {
+      font-size: 10px;
+      text-align: center;
+  }
+  textarea {
+    width: 70%;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 500px){
+  
+.body {
+  max-width: 400px;
+}
+h1 {
+      font-size: 25px;
+      text-align: center;
+  }
+  .middle {
+      font-size: 12px;
+      text-align: center;
+  }
+  textarea {
+    width: 80%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px){
+  
+.body {
+  max-width: 450px;
+}
+h1 {
+      font-size: 30px;
+      text-align: center;
+  }
+  .middle {
+      font-size: 15px;
+      text-align: center;
+  }
+  textarea {
+    width: 80%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1100px){
+  
+.body {
+  max-width: 600px;
+}
+h1 {
+      font-size: 30px;
+      text-align: center;
+  }
+  .middle {
+      font-size: 20px;
+      text-align: center;
+  }
+  textarea {
+    width: 80%;
+  }
+}
+
